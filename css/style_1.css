@@ -141,9 +141,9 @@
     .nav-link-title {
         font-size: 0.7rem;
     }
-    .home {
+    #home {
         position: relative;
-        min-height: 470px;
+        min-height: 570px;
         display: flex;
         align-items: center;
         margin-top: 5rem !important;
@@ -406,11 +406,25 @@
         color: var(--text-color);
     }
     /*About US Page*/
+    .body {
+        background-image: url("../img/background.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
     .about-container {
         width: 90%;
         margin-left: 187px;
-        top: 2.5rem;
+        margin-top: 0;
+        margin-bottom: 50px;
     }
     .about-title {
         left: 140px;
+        color: var(--text-color);
+    }
+    .about-content {
+        color: var(--text-color);
+    }
+    .about-container .mark {
+        color: darkred;
     }
